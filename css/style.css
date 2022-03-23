@@ -1,0 +1,26 @@
+body {
+  background-color: #1d1819;
+}
+
+div {
+  margin: 200px auto;
+}
+
+.outside {
+  width: 200px;
+  height: 200px;
+  background-color: #da1f28;
+  position: relative;
+  border: 5px solid #fff;
+}
+
+.inside {
+  width: 200px;
+  height: 200px;
+  background-color: #ebcb6c;
+  position: absolute;
+  top: -180px;
+  left: 20px;
+  z-index: -1;
+  box-shadow: 0 0 0 5px #000, 0 0 0 8px #fff;
+}
